@@ -1,0 +1,145 @@
+body {
+
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #EAF6F6;
+
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*----- 16px = 100% = 1em(90/16=5.625REM) ------rem IS THE BEST BECAUSE IT CANCELS THE FONT-SIZE OF THE FATHER EFFECT
+  ON IT SO IT WONT BE 15PX+5.625REM */
+  margin: 50px;
+  /* if it was margin: 0 auto; - TOP AND BOTTOM WILL BE 0PX
+                     LEFT AND RIGHT WILL BE AUTO*/
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  border: dotted #bccccc 6px;
+  border-bottom: none;
+  width: 4%; /* of the hr line only (important to be in % so it scales with the website)*/
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none; /*The default text decoration for a tags is underline*/
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.middle-container {
+margin: 100px 0;
+
+}
+
+.intro{
+  width:30%;
+  margin:auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto; /*by setting margin: auto; we CENTER the element(top buttom left anf right)*/
+  text-align: left;
+
+
+}
+
+.html-image{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.js-image{
+width: 25%;
+float: right;
+margin-left: 30px;
+}
+
+  /*clear:left; baisically means that it's clearing all the left margin and making sure its not wrapped around anything */
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px; /* 40px top auto left and right and 60px buttom*/
+}
+
+.bottom-container {
+  margin-top:30px;
+  padding: 50px 0 30px; /* 50px from the top and 0 left and right and 20px bottom*/
+  background-color: #66BFBF;
+}
+
+.copy-right{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 11px 14px 11px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
